@@ -36,7 +36,7 @@ public class ProductSaveServiceImpl implements ProductSaveService {
     @Override
     public boolean productStatusUp(List<SkuEsModel> skuEsModels) throws IOException {
 
-//1.在es中建立索引，建立号映射关系（doc/json/product-mapping.json）
+        //1.在es中建立索引，建立号映射关系（doc/json/product-mapping.json）[kibana中执行product-mapping.txt，需要ES安装IK分词器]
 
         //2. 在ES中保存这些数据
         BulkRequest bulkRequest = new BulkRequest();

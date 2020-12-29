@@ -36,7 +36,7 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
 @EnableRabbit
 @EnableFeignClients
 @EnableDiscoveryClient
-@SpringBootApplication(exclude = GlobalTransactionAutoConfiguration.class)
+@SpringBootApplication //(exclude = GlobalTransactionAutoConfiguration.class)
 public class GulimallOrderApplication {
 
     public static void main(String[] args) {

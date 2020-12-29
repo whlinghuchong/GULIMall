@@ -10,7 +10,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableRabbit
 @EnableFeignClients
 @EnableDiscoveryClient
-@SpringBootApplication(exclude = GlobalTransactionAutoConfiguration.class)
+@SpringBootApplication //(exclude = GlobalTransactionAutoConfiguration.class)
 public class GulimallWareApplication {
 
     public static void main(String[] args) {
