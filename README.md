@@ -39,4 +39,4 @@
 
 - 非常期待各位的Pull Requests，共同完善、共同进步。
 
-- 遇到无法解决的问题时，建议通过搜索引擎的方式去解决。【仍然无法解决的话：https://shimo.im/docs/hd6Wk6qYk3HhKwry】
+- 遇到无法解决的问题时，建议通过搜索引擎的方式去解决。【仍然无法解决的话：https://shimo.im/docs/hd6Wk6qYk3HhKwry 】
